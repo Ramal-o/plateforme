@@ -430,7 +430,6 @@ function draw() {
         ctx.fillStyle = "rgb(242, 210, 0)";
 
         if(goldCoin.complete && goldCoin.naturalWidth > 0) {
-            console.log("Taille de la pièce :", coinSize);
             ctx.drawImage(
             goldCoin,
             coins[i].x,
