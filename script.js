@@ -247,7 +247,7 @@ let y = 20;
 let vy = 0;
 let vx = 0;
 
-const coinSize = 40;
+const coinSize = 30;
 const keys = {};
 const gravity = 0.5;
 
