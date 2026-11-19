@@ -319,7 +319,7 @@ const groundImage = new Image();
 groundImage.src = "assets/sol.png";
 
 const goldCoin = new Image();
-goldCoin.src = "assets.coin.png"
+goldCoin.src = "assets/coin.png"
 // ================================
 // REDIMENSIONNEMENT
 // ================================
