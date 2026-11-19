@@ -247,7 +247,7 @@ let y = 20;
 let vy = 0;
 let vx = 0;
 
-const coinSize = 15;
+const coinSize = 30;
 const keys = {};
 const gravity = 0.5;
 
@@ -430,6 +430,7 @@ function draw() {
         ctx.fillStyle = "rgb(242, 210, 0)";
 
         if(goldCoin.complete && goldCoin.naturalWidth > 0) {
+            console.log("Taille de la pièce :", coinSize);
             ctx.drawImage(
             goldCoin,
             coins[i].x,
