@@ -434,8 +434,8 @@ function draw() {
             goldCoin,
             coins[i].x,
             coins[i].y,
-            coinSize,
-            coinSize
+            coinSize + 20,
+            coinSize + 20
         );
         }
         else {
