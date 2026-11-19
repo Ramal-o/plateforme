@@ -318,6 +318,8 @@ basiqueSky.src = "assets/background-sky.jpg";
 const groundImage = new Image();
 groundImage.src = "assets/sol.png";
 
+const goldCoin = new Image();
+goldCoin.src = "assets.coin.png"
 // ================================
 // REDIMENSIONNEMENT
 // ================================
@@ -427,12 +429,18 @@ function draw() {
 
         ctx.fillStyle = "rgb(242, 210, 0)";
 
-        ctx.fillRect(
+        if(goldCoin.complete) {
+            ctx.drawImage(
+            goldCoin,
             coins[i].x,
             coins[i].y,
             coinSize,
             coinSize
         );
+        }
+        else {
+            console.log("l'image de piece d'or n'est pas charger")
+        }
     }
 
     // DRAPEAU
