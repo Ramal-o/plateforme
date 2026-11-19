@@ -429,7 +429,7 @@ function draw() {
 
         ctx.fillStyle = "rgb(242, 210, 0)";
 
-        if(goldCoin.complete) {
+        if(goldCoin.complete && goldCoin.naturalWidth > 0) {
             ctx.drawImage(
             goldCoin,
             coins[i].x,
