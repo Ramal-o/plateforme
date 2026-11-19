@@ -247,7 +247,7 @@ let y = 20;
 let vy = 0;
 let vx = 0;
 
-const coinSize = 20;
+const coinSize = 40;
 const keys = {};
 const gravity = 0.5;
 
@@ -434,8 +434,8 @@ function draw() {
             goldCoin,
             coins[i].x,
             coins[i].y,
-            coinSize + 20,
-            coinSize + 20
+            coinSize,
+            coinSize
         );
         }
         else {
